@@ -42,3 +42,12 @@ It showcases key SQL concepts such as aggregation, window functions, joins, and 
    - Aggregation (`SUM`, `COUNT`, `AVG`, `MIN`, `MAX`) and grouping (`GROUP BY`).
 
 ---
+🧩 Advanced SQL Techniques
+
+DENSE_RANK() for top product ranking
+
+Window functions for analytical queries
+
+Joins (LEFT JOIN, INNER JOIN) for data consolidation
+
+Aggregation functions (SUM, COUNT, AVG, MIN, MAX) with GROUP BY

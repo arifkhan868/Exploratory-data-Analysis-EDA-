@@ -11,3 +11,10 @@ It showcases key SQL concepts such as aggregation, window functions, joins, and 
 - **DBeaver** → SQL client for writing and executing queries.
 - **PostgreSQL** → Database system for running queries.
 ---
+## Key Objectives
+- Analyze business performance and key metrics.
+- Identify trends in customer behavior, sales, and products.
+- Evaluate top-performing and underperforming products.
+- Summarize revenue and orders across categories, customers, and countries.
+
+---

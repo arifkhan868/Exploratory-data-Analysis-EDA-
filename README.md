@@ -18,3 +18,27 @@ It showcases key SQL concepts such as aggregation, window functions, joins, and 
 - Summarize revenue and orders across categories, customers, and countries.
 
 ---
+## Features / Analysis Conducted
+1. **Database Exploration**
+   - List all tables and columns.
+   - Inspect schema structure and relationships.
+2. **Customer Insights**
+   - Identify youngest and oldest customers.
+   - Count total customers and customers who placed orders.
+   - Customer distribution by country and gender.
+3. **Sales Analysis**
+   - Total sales, average selling price, total quantity sold, and total orders.
+   - Sales trends across time (first and last order, sales duration in years).
+4. **Product Analysis**
+   - Total products, product distribution by category, average product cost.
+   - Identify top 5 highest revenue products and 5 lowest revenue products.
+5. **Revenue Analysis**
+   - Total revenue by category and by customer.
+   - Generate a consolidated report of key business metrics using UNION ALL.
+6. **Advanced SQL Techniques**
+   - Use of `DENSE_RANK` for top product ranking.
+   - Window functions for analytical queries.
+   - Joins (`LEFT JOIN`, `INNER JOIN`) for data consolidation.
+   - Aggregation (`SUM`, `COUNT`, `AVG`, `MIN`, `MAX`) and grouping (`GROUP BY`).
+
+---

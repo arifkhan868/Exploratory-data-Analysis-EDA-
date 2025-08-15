@@ -42,4 +42,23 @@ It showcases key SQL concepts such as aggregation, window functions, joins, and 
    - Aggregation (`SUM`, `COUNT`, `AVG`, `MIN`, `MAX`) and grouping (`GROUP BY`).
 
 ---
+-- Total revenue by category
+SELECT pd.category, SUM(sl.sales_amount) AS total_revenue
+FROM products pd
+LEFT JOIN sales sl ON pd.product_key = sl.product_key
+GROUP BY pd.category
+ORDER BY total_revenue DESC;
+
+-- Identify youngest and oldest customers
+SELECT MIN(birthdate) AS oldest_customer,
+       MAX(birthdate) AS youngest_customer
+FROM customers;
+
+-- Top 5 highest revenue products
+SELECT product_name, SUM(sales_amount) AS revenue
+FROM sales s
+JOIN products p ON s.product_key = p.product_key
+GROUP BY product_name
+ORDER BY revenue DESC
+LIMIT 5;
 

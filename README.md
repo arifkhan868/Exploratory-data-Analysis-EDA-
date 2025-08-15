@@ -46,3 +46,7 @@ It showcases key SQL concepts such as aggregation, window functions, joins, and 
 
 This project demonstrates strong SQL skills, advanced data analysis capabilities, and the ability to extract actionable insights from raw retail sales and customer data. It is a practical showcase of business intelligence reporting using SQL.
 
+---
+
+Linkedin Profile : https://www.linkedin.com/public-profile/settings?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_self_edit_contact-info%3BieDJIsUKR4SkPGPQOzMZMg%3D%3D
+
